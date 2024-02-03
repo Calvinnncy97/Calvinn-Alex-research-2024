@@ -1,0 +1,104 @@
+{
+  "topics": [
+    {
+      "name": "Economy",
+      "url": "https://news.gallup.com/topic/economy.aspx"
+    },
+    {
+      "name": "Podcast",
+      "url": "https://news.gallup.com/topic/gallup-podcast.aspx"
+    },
+    {
+      "name": "Politics",
+      "url": "https://news.gallup.com/topic/politics.aspx"
+    },
+    {
+      "name": "World",
+      "url": "https://news.gallup.com/topic/world-region-worldwide.aspx"
+    },
+    {
+      "name": "USA",
+      "url": "https://news.gallup.com/topic/country-usa.aspx"
+    },
+    {
+      "name": "Well Being",
+      "url": "https://news.gallup.com/topic/category-wellbeing.aspx"
+    },
+    {
+      "name": "lgbt",
+      "url": "https://news.gallup.com/topic/lgbt.aspx"
+    },
+    {
+      "name": "Social and Policy Issues",
+      "url": "https://news.gallup.com/topic/category-social-issues.aspx"
+    },
+    {
+      "name": "Education",
+      "url": "https://news.gallup.com/topic/category-education.aspx"
+    },
+    {
+      "name": "Race Relation",
+      "url": "https://news.gallup.com/topic/race-relations.aspx"
+    },
+    {
+      "name": "Religion",
+      "url": "https://news.gallup.com/topic/religion.aspx"
+    },
+    {
+      "name": "Gallup Blog",
+      "url": "https://news.gallup.com/topic/blog-tgb.aspx"
+    },
+    {
+      "name": "The Chairman Blog",
+      "url": "https://news.gallup.com/topic/blog-tcb.aspx"
+    },
+    {
+      "name": "Vault",
+      "url": "https://news.gallup.com/topic/vault.aspx"
+    },
+    {
+      "name": "Methodology",
+      "url": "https://news.gallup.com/topic/methodologyblog.aspx"
+    },
+    {
+      "name": "Personal Finance",
+      "url": "https://news.gallup.com/topic/personal_finance.aspx"
+    },
+    {
+      "name": "Short Answer",
+      "url": "https://news.gallup.com/topic/the_short_answer.aspx"
+    },
+    {
+      "name": "Foreign Affairs",
+      "url": "https://news.gallup.com/topic/foreign_affairs.aspx"
+    },
+    {
+      "name": "Asia Pacific",
+      "url": "https://news.gallup.com/topic/asia_pacific.aspx"
+    },
+    {
+      "name": "Small Business",
+      "url": "https://news.gallup.com/topic/small_business.aspx"
+    },
+    {
+      "name": "Retirement",
+      "url": "https://news.gallup.com/topic/retirement.aspx"
+    },
+    {
+      "name": "Asia Pacific",
+      "url": "https://news.gallup.com/topic/asia_pacific.aspx"
+    },
+    {
+      "name": "Abortion",
+      "url": "https://news.gallup.com/topic/abortion.aspx"
+    },
+    {
+      "name": "Blog PM",
+      "url": "https://news.gallup.com/topic/blog_pm.aspx"
+    },
+    {
+      "name": "Sub Saharan Africa",
+      "url": "https://news.gallup.com/topic/sub_saharan_africa.aspx"
+    }
+  ]
+}
