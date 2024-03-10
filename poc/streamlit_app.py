@@ -2,10 +2,13 @@ import os
 import requests
 import streamlit as st
 import json
+from chatbot import ChatBot
 
 CHATBOT_URL = os.getenv(
     "CHATBOT_URL", "http://localhost:8000/pew-research-rag-agent"
 )
+
+chatbot = ChatBot()
 
 with st.sidebar:
     st.header("About")
@@ -47,16 +50,20 @@ if prompt := st.chat_input("What do you want to know?"):
     data = {"text": prompt}
 
     with st.spinner("Searching for an answer..."):
-        response = requests.post(CHATBOT_URL, json=data)
+        # response = requests.post(CHATBOT_URL, json=data)
 
-        if response.status_code == 200:
-            output_text = response.json()["response"]
-            explanation = json.dumps(response.json()["docs"], indent=2).replace('\n', '\n\n')
+        # if response.status_code == 200:
+        #     output_text = response.json()["response"]
+        #     explanation = json.dumps(response.json()["docs"], indent=2).replace('\n', '\n\n')
 
-        else:
-            output_text = """An error occurred while processing your message.
-            Please try again or rephrase your message."""
-            explanation = output_text
+        # else:
+        #     output_text = """An error occurred while processing your message.
+        #     Please try again or rephrase your message."""
+        #     explanation = output_text
+
+        response, docs = chatbot.get_response(user_input=prompt)
+        output_text = response.content
+        explanation = json.dumps(docs, indent=2).replace('\n', '\n\n')
 
     st.chat_message("assistant").markdown(output_text)
     st.status("Docs behind the answer", state="complete").info(explanation)
