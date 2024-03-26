@@ -1,0 +1,13 @@
+train: /home/alextay96/Desktop/workspace/Calvinn-Alex-research-2024/src/data_engineering/arvix-image/yolov7/custom_dataset/train/images
+val: /home/alextay96/Desktop/workspace/Calvinn-Alex-research-2024/src/data_engineering/arvix-image/yolov7/custom_dataset/valid/images
+test: /home/alextay96/Desktop/workspace/Calvinn-Alex-research-2024/src/data_engineering/arvix-image/yolov7/custom_dataset/test/images
+
+nc: 2
+names: ['figure', 'table']
+
+roboflow:
+  workspace: tablefigure
+  project: table_figure
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/tablefigure/table_figure/3

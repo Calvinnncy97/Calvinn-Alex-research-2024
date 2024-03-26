@@ -2,3 +2,5 @@
 *.txt
 data/
 .vscode/
+figures/
+pdf/
